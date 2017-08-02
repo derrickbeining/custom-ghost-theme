@@ -99,7 +99,8 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
+    background-color: #16567b;
     background-size: cover;
 }
 
@@ -773,7 +774,8 @@ Super neat trick courtesy of @JoelDrapper
     color: var(--whitegrey);
     font-size: 1.4rem;
     line-height: 1.5em;
-    background: color(var(--darkgrey) l(-3%));
+    /* background: color(var(--darkgrey) l(-3%)); */
+    background-color: ;
     border-radius: 5px;
 }
 
