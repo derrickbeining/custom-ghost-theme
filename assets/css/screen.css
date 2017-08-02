@@ -252,11 +252,15 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0;
     padding: 10px 12px;
     color: #fff;
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    font-weight: 600;
+    -webkit-transition: text-decoration 400ms ease delay;
+    -moz-transition: text-decoration 400ms ease delay;
+    transition: text-decoration 400ms ease delay;
 }
 
 .nav li a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     opacity: 1;
 }
 
@@ -1772,7 +1776,8 @@ Super neat trick courtesy of @JoelDrapper
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: color(var(--darkgrey) l(-15%));
+    /* background: color(var(--darkgrey) l(-15%)); */
+    background-color: #16567b;
 }
 
 .site-footer-content {
