@@ -162,9 +162,10 @@ body {
     margin: 0;
     padding: 5px 0;
     font-size: 2.2rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.5px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 500px) {
@@ -428,6 +429,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .post-card-title {
+    color: #16567b;
     margin-top: 0;
 }
 
