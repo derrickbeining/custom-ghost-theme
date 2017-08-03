@@ -770,16 +770,17 @@ Super neat trick courtesy of @JoelDrapper
 
 .post-full-content pre {
     overflow-x: auto;
-    margin: 1.5em 0 3em;
+    margin: 1.0em 0 3em;
     padding: 20px;
     max-width: 100%;
     border: color(var(--darkgrey) l(-10%)) 1px solid;
     color: var(--whitegrey);
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 1.5em;
     /* background: color(var(--darkgrey) l(-3%)); */
-    background-color: ;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    box-shadow: 0px -4px 0px rgba(0, 0, 0, 0.3),
+                -3px epx 25px rgba(0, 0, 0, 0.2);
 }
 
 .post-full-content pre code {
