@@ -31,7 +31,7 @@
 /* Code blocks */
 .post-full-content pre[class*="language-"] {
 	/* padding: 1em; */
-	padding: 0px 1em 1.5em 1em;
+	/* padding: 0px 1em 1.5em 1em; */
 	/* margin: .5em 0; */
 	overflow: auto;
 	/* border-radius: 0.3em; */
@@ -45,7 +45,7 @@
 /* Inline code */
 .post-full-content :not(pre) > code[class*="language-"] {
 	padding: .1em;
-	border-radius: .3em;
+	/* border-radius: .3em; */
 	white-space: normal;
 }
 
