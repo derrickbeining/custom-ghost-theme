@@ -761,11 +761,12 @@ Super neat trick courtesy of @JoelDrapper
 
 .post-full-content code {
     padding: 0 5px 2px;
+    font-family: Consolas, Menlo, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-size: 0.8em;
     line-height: 1em;
     font-weight: 600!important;
     background: var(--whitegrey);
-    border-radius: 3px;
+    /* border-radius: 3px; */
 }
 
 .post-full-content pre {
@@ -777,7 +778,8 @@ Super neat trick courtesy of @JoelDrapper
     color: var(--whitegrey);
     font-size: 1.5rem;
     line-height: 1.5em;
-     background: color(var(--darkgrey) l(-3%));
+     /* background: color(var(--darkgrey) l(-3%)); */
+    background: #272822;
     /* border-radius: 5px; */
     box-shadow: 0px -4px 0px rgba(0, 0, 0, 0.3),
                 -3px 3px 25px rgba(0, 0, 0, 0.2);
