@@ -122,17 +122,17 @@
 	cursor: help;
 }
 
-pre.line-numbers {
+.post-full-content pre.line-numbers {
 	position: relative;
 	padding-left: 3.8em;
 	counter-reset: linenumber;
 }
 
-pre.line-numbers > code {
+.post-full-content pre.line-numbers > code {
 	position: relative;
 }
 
-.line-numbers .line-numbers-rows {
+.post-full-content .line-numbers .line-numbers-rows {
 	position: absolute;
 	pointer-events: none;
 	top: 0;
