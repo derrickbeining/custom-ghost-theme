@@ -124,7 +124,7 @@
 
 .post-full-content pre.line-numbers {
 	position: relative;
-	padding-left: 3.8em;
+	padding-left: 3.0em;
 	counter-reset: linenumber;
 }
 
