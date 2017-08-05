@@ -8,7 +8,7 @@
 .post-full-content code[class*="language-"],
 .post-full-content pre[class*="language-"] {
 	color: #f8f8f2;
-	background: none;
+	/* background: none; */
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
 	font-family: Consolas, Menlo, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
